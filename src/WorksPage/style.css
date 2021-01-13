@@ -1,0 +1,100 @@
+/* 
+.card-container {
+  width: 300px;
+  height: 400px;
+
+  box-shadow: 0px 0px 15px -15px;
+  animation: ease-in;
+
+  background-color: white;
+} */
+
+/* .card-container:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+} */
+
+/* .image-container {
+  overflow: hidden;
+  height: 300px;
+} */
+.general_card6 {
+  height: 400px;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: -150px;
+  font-family: poppins;
+}
+
+@media all and (max-width: 600px) {
+  .general_card6 {
+    margin-top: 250px;
+  }
+}
+
+.carding1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 3px 0px;
+  height: 300px;
+  margin: 5px;
+  width: 450px;
+  background-color: black;
+  cursor: pointer;
+}
+.general_card9 {
+  height: 400px;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: -200px;
+}
+.general_card12 {
+  height: 400px;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: -200px;
+}
+
+.carding9 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 3px 0px;
+  height: 300px;
+  margin: 5px;
+  width: 450px;
+  background-color: CORAL;
+  cursor: pointer;
+}
+
+@media all and (max-width: 600px) {
+  .general_card9 {
+    margin-top: 250px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .project {
+    margin-top: 600px;
+  }
+}
+
+.buttm {
+  background: rgba(0, 0, 0, 0.157);
+  color: white;
+}
